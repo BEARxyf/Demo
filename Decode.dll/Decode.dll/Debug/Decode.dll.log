@@ -1,0 +1,19 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MyDecode.cpp
+  正在生成代码...
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\MyDecode.cpp(51): warning C4715: “MyDecode::Decode”: 不是所有的控件路径都返回值
+MyDecode.obj : error LNK2019: 无法解析的外部符号 _avcodec_parameters_alloc，函数 "public: int __thiscall MyDecode::Decode(char const *)" (?Decode@MyDecode@@QAEHPBD@Z) 中引用了该符号
+MyDecode.obj : error LNK2019: 无法解析的外部符号 _avformat_alloc_context，函数 "public: int __thiscall MyDecode::Decode(char const *)" (?Decode@MyDecode@@QAEHPBD@Z) 中引用了该符号
+MyDecode.obj : error LNK2019: 无法解析的外部符号 _avformat_free_context，函数 "public: int __thiscall MyDecode::Decode(char const *)" (?Decode@MyDecode@@QAEHPBD@Z) 中引用了该符号
+MyDecode.obj : error LNK2019: 无法解析的外部符号 _avformat_open_input，函数 "public: int __thiscall MyDecode::Decode(char const *)" (?Decode@MyDecode@@QAEHPBD@Z) 中引用了该符号
+MyDecode.obj : error LNK2019: 无法解析的外部符号 _avformat_find_stream_info，函数 "public: int __thiscall MyDecode::Decode(char const *)" (?Decode@MyDecode@@QAEHPBD@Z) 中引用了该符号
+MyDecode.obj : error LNK2019: 无法解析的外部符号 _av_find_best_stream，函数 "public: int __thiscall MyDecode::Decode(char const *)" (?Decode@MyDecode@@QAEHPBD@Z) 中引用了该符号
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\lib\avcodec.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\lib\avdevice.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\lib\avfilter.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\lib\avformat.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\lib\swresample.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\lib\swscale.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\lib\avutil.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\vsproject\own\LinkDll\Decode.dll\Debug\Decode.dll.dll : fatal error LNK1120: 6 个无法解析的外部命令

@@ -1,0 +1,25 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MyDecode.cpp
+    正在创建库 D:\vsproject\own\LinkDll\Decode.dll\x64\Release\Decode.dll.lib 和对象 D:\vsproject\own\LinkDll\Decode.dll\x64\Release\Decode.dll.exp
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avformat_alloc_context
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avformat_open_input
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avformat_find_stream_info
+MyDecode.obj : error LNK2001: 无法解析的外部符号 av_find_best_stream
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avcodec_alloc_context3
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avcodec_parameters_to_context
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avcodec_find_decoder
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avcodec_open2
+MyDecode.obj : error LNK2001: 无法解析的外部符号 av_packet_alloc
+MyDecode.obj : error LNK2001: 无法解析的外部符号 av_read_frame
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avcodec_send_packet
+MyDecode.obj : error LNK2001: 无法解析的外部符号 av_packet_unref
+MyDecode.obj : error LNK2001: 无法解析的外部符号 av_frame_alloc
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avcodec_receive_frame
+MyDecode.obj : error LNK2001: 无法解析的外部符号 av_get_bytes_per_sample
+MyDecode.obj : error LNK2001: 无法解析的外部符号 av_sample_fmt_is_planar
+MyDecode.obj : error LNK2001: 无法解析的外部符号 av_packet_free
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avformat_close_input
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avcodec_close
+MyDecode.obj : error LNK2001: 无法解析的外部符号 avformat_free_context
+D:\vsproject\own\LinkDll\Decode.dll\x64\Release\Decode.dll.dll : fatal error LNK1120: 20 个无法解析的外部命令

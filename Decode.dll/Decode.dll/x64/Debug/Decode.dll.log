@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MyDecode.cpp
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\MyDecode.cpp(193,18): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\MyDecode.cpp(194,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\MyDecode.cpp(262,18): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\MyDecode.cpp(263,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\vsproject\own\LinkDll\Decode.dll\Decode.dll\MyDecode.cpp(671,6): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+    正在创建库 D:\vsproject\own\LinkDll\Decode.dll\x64\Debug\Decode.dll.lib 和对象 D:\vsproject\own\LinkDll\Decode.dll\x64\Debug\Decode.dll.exp
+  Decode.dll.vcxproj -> D:\vsproject\own\LinkDll\Decode.dll\x64\Debug\Decode.dll.dll
